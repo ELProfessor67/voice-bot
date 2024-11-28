@@ -1,0 +1,132 @@
+
+
+{
+  "json": {
+    "questions": [
+      {
+        "question": "What is your age?",
+        "mandatory_information_required": []
+      },
+      {
+        "question": "What is your monthly household income range?",
+        "mandatory_information_required": []
+      },
+      {
+        "question": "Could you tell us about any skin concerns you have? You can pick one from the following options: Dryness, Aging, Sensitivity, Acne, or others you may have.",
+        "mandatory_information_required": []
+      },
+      {
+        "question": "Could you tell us about your skin type? Is it oily, dry, combination, sensitive, or normal?",
+        "mandatory_information_required": []
+      },
+      {
+        "question": "How often do you use face creams? Options: Daily, Multiple times a day, Weekly, Rarely, Never",
+        "mandatory_information_required": []
+      },
+      {
+        "question":  "What factors do you consider when purchasing a face cream? Options: Brand, Price, Ingredients, Recommendations, Packaging, etc.",
+        "mandatory_information_required": []
+      },
+      {
+        "question": "Had you heard of Blue Lotus Face Cream before today?",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["heard_of_blue_lotus"]
+      },
+      {
+        "question": "How did you first learn about Blue Lotus Face Cream?",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["learn_about_blue_lotus"]
+      },
+      {
+        "question": "What words or images come to mind when you think of Blue Lotus Face Cream?",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["words_or_images"]
+      },
+      {
+        "question": "What is your initial impression of Blue Lotus Face Cream?",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["initial_impression"]
+      },
+      {
+        "question": "On a scale from much lower to much higher, how would you rate the quality of Blue Lotus Face Cream compared to other face creams you've used?",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["quality_compared_to_others"]
+      },
+      {
+        "question": "Describe your current skincare routine and how Blue Lotus Face Cream could fit into it.",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["skincare_routine_and_fit"]
+      },
+      {
+        "question": "On a scale from 'Not important at all' to 'Extremely important', how much value do you place on using natural or organic ingredients in your skincare products?",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["importance_of_natural_ingredients"]
+      },
+      {
+        "question": "In what ways do you think a premium face cream like Blue Lotus can enhance your skincare experience?",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["ways_enhance_skincare_experience"]
+      },
+      {
+        "question": "How does your lifestyle influence your choices in skincare products?",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["lifestyle_influence_on_choices"]
+      },
+      {
+        "question": "Can you share a recent experience where you felt the need for a high-quality face cream?",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["recent_experience_high_quality_cream"]
+      },
+      {
+        "question": "How does Blue Lotus Face Cream stand out from its competitors, in your opinion?",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["stand_out_from_competitors"]
+      },
+      {
+        "question": "Have you ever switched from one brand to another for face creams? If so, what motivated the switch?",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["switched_brands_motivation"]
+      },
+      {
+        "question": "If you have used Blue Lotus Face Cream before, describe your experience and the outcomes you noticed.",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["experience_and_outcomes"]
+      },
+      {
+        "question": "From very poor value to excellent value, how would you rate the value for money of Blue Lotus Face Cream?",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["value_for_money"]
+      },
+      {
+        "question": "Can you recall any advertising or marketing for Blue Lotus Face Cream that resonated with you? Why?",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["recall_advertising_or_marketing"]
+      },
+      {
+        "question": "Looking to the future, how do you see Blue Lotus Face Cream fitting into your evolving skincare needs and preferences?",
+        "mandatory_information_required": [],
+        "func": "okay",
+        "params": ["fitting_into_skincare_needs"]
+      }
+    ]
+  },
+  "message":"Start by warmly greeting the user and asking if they're interested in participating in the survey.If the user agrees, proceed to ask the first survey question.After receiving the user's response to the first question check and confirm the response is correct if correct , ask the next question.Repeat this process for each question in the survey, ensuring to obtain satisfactory responses before moving on to the next question.Keep responses concise yet engaging, ensuring clarity and effectiveness in communication to minimize misunderstandings.Before executing any functions, verify that all necessary information, including age, gender, and monthly income range, is provided. If any details are missing, kindly request them before proceeding.Once all required information is confirmed, proceed with the specified actions using the JSON format.When all questions have been answered, thank the participant for their time, and inform them that their gift card will be sent via email within two business days. Advise them to direct any questions to support@amplify.co. End the interaction with a simple JSON response {'closeCall':'yes'}.",
+   "firstFiller": "Hello there! Would you like to participate in a survey?",
+  "secondFiller": "Just a moment, please.",
+  "audioSpeed": 0.9
+}
